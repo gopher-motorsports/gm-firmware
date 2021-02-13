@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  acm:
+    image: gophermotorsports/build:latest
+    volumes: 
+      - ./components/acm:/code/
+    command: make all -C /code/Debug -j4
+
+  dam:
+    image: gophermotorsports/build:latest
+    volumes: 
+      - ./components/dam:/code/
+    command: make all -C /code/Debug -j4
+
+  dlm:
+    image: gophermotorsports/build:latest
+    volumes: 
+      - ./components/dlm:/code/
+    command: make all -C /code/Debug -j4
+  
+  pdm:
+    image: gophermotorsports/build:latest
+    volumes: 
+      - ./components/pdm:/code/
+    command: make all -C /code/Debug -j4
