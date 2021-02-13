@@ -3,6 +3,7 @@
 name: pdm
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'components/pdm/**'

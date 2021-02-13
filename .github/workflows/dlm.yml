@@ -3,6 +3,7 @@
 name: dlm
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'components/dlm/**'

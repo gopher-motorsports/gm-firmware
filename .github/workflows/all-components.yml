@@ -3,9 +3,7 @@
 name: all-components
 
 on:
-  push:
-    paths:
-    - 'components/build-tools/**'
+  workflow_dispatch:
 
 jobs:
   acm-build:

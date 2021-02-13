@@ -3,6 +3,7 @@
 name: acm
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'components/acm/**'

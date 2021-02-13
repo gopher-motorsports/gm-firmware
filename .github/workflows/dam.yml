@@ -3,6 +3,7 @@
 name: dam
 
 on:
+  workflow_dispatch:
   push:
     paths:
     - 'components/dam/**'

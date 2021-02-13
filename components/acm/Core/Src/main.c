@@ -41,7 +41,7 @@
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
-CAN_HandleTypeDef hcan
+CAN_HandleTypeDef hcan;
 
 TIM_HandleTypeDef htim3;
 TIM_HandleTypeDef htim14;
