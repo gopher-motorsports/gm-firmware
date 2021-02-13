@@ -48,7 +48,6 @@ TIM_HandleTypeDef htim14;
 
 UART_HandleTypeDef huart2;
 
-
 /* Definitions for start_update_ca */
 osThreadId_t start_update_caHandle;
 const osThreadAttr_t start_update_ca_attributes = {
