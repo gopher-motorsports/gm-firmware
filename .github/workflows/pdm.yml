@@ -8,7 +8,7 @@ on:
     - 'components/pdm'
 
 jobs:
-  build:
+  pdm-build:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
