@@ -5,7 +5,7 @@ name: all-components
 on:
   push:
     paths:
-    - 'components/**'
+    - 'components/build-tools/**'
 
 jobs:
   acm-build:
