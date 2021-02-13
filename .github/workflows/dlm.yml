@@ -1,11 +1,11 @@
 # Builds DLM firmware
 
-name: DLM
+name: dlm
 
 on:
   push:
     paths:
-    - 'components/dlm'
+    - 'components/dlm/**'
 
 jobs:
   dlm-build:

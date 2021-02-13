@@ -1,11 +1,11 @@
 # Builds DAM firmware
 
-name: DAM
+name: dam
 
 on:
   push:
     paths:
-    - 'components/dam'
+    - 'components/dam/**'
 
 jobs:
   dam-build:

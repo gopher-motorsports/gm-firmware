@@ -1,6 +1,6 @@
 # Builds ACM firmware
 
-name: ACM
+name: acm
 
 on:
   push:

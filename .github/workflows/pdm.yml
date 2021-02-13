@@ -1,11 +1,11 @@
 # Builds PDM firmware
 
-name: PDM
+name: pdm
 
 on:
   push:
     paths:
-    - 'components/pdm'
+    - 'components/pdm/**'
 
 jobs:
   pdm-build:
