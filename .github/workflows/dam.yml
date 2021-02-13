@@ -4,6 +4,8 @@ name: DAM
 
 on:
   push:
+    paths:
+    - 'components/dam'
 
 jobs:
   build:

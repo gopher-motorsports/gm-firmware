@@ -4,6 +4,8 @@ name: ACM
 
 on:
   push:
+    paths:
+    - 'components/acm'
 
 jobs:
   build:

@@ -2,3 +2,7 @@ validation/results/*
 **/*.d
 **/*.o
 **/*.su
+**/*.bin
+**/*.elf
+**/*.list
+**/*.map

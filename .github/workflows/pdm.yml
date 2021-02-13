@@ -4,6 +4,8 @@ name: PDM
 
 on:
   push:
+    paths:
+    - 'components/pdm'
 
 jobs:
   build:

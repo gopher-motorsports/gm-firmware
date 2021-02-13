@@ -4,6 +4,8 @@ name: DLM
 
 on:
   push:
+    paths:
+    - 'components/dlm'
 
 jobs:
   build:
