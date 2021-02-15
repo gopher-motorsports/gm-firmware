@@ -15,4 +15,4 @@
 	url = https://github.com/gopher-motorsports/gophercan-lib
 [submodule "C-Utils"]
 	path = C-Utils
-	url = git@github.com:gopher-motorsports/C-Utils.git
+	url = https://github.com/gopher-motorsports/C-Utils

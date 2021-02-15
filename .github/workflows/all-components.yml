@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Clean
-      run: docker-compose run dlm-clean
+      run: docker-compose run clean-dlm
 
     - name: Build
       run: docker-compose run dlm
