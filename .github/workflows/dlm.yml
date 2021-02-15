@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     paths:
-    - 'components/data-logging-module/**'
+    - 'components/data-logging-module'
 
 jobs:
   dlm-build:
