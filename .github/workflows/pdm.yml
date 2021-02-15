@@ -3,9 +3,10 @@
 name: pdm
 
 on:
+  workflow_dispatch:
   push:
     paths:
-    - 'components/pdm/**'
+    - 'components/power-distribution-module/**'
 
 jobs:
   pdm-build:

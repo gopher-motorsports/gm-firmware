@@ -3,9 +3,7 @@
 name: all-components
 
 on:
-  push:
-    paths:
-    - 'components/**'
+  workflow_dispatch:
 
 jobs:
   acm-build:
@@ -26,6 +24,9 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
+    - name: Clean
+      run: docker-compose run clean-dlm
+
     - name: Build
       run: docker-compose run dlm
 

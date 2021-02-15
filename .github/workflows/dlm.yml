@@ -3,14 +3,22 @@
 name: dlm
 
 on:
+  workflow_dispatch:
   push:
     paths:
-    - 'components/dlm/**'
+    - 'components/data-logging-module'
 
 jobs:
   dlm-build:
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Checkout submodules
+      uses: textbook/git-checkout-submodule-action@master
+
+    - name: Clean
+      run: docker-compose run clean-dlm
+
     - name: Build
       run: docker-compose run dlm

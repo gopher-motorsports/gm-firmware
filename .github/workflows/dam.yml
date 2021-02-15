@@ -3,9 +3,10 @@
 name: dam
 
 on:
+  workflow_dispatch:
   push:
     paths:
-    - 'components/dam/**'
+    - 'components/data-acquisition-module/**'
 
 jobs:
   dam-build:
