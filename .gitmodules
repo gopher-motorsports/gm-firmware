@@ -10,3 +10,9 @@
 [submodule "components/data-acquisition-module"]
 	path = components/data-acquisition-module
 	url = https://github.com/gopher-motorsports/data-acquisition-module
+[submodule "gophercan-lib"]
+	path = gophercan-lib
+	url = https://github.com/gopher-motorsports/gophercan-lib
+[submodule "C-Utils"]
+	path = C-Utils
+	url = git@github.com:gopher-motorsports/C-Utils.git
