@@ -16,9 +16,15 @@ services:
   dlm:
     image: gophermotorsports/build:latest
     volumes: 
-      - ./components/dlm:/code/
-    command: make all -C /code/Debug -j4
-  
+      - ./:/code/
+    command: make all -C ./components/data-logging-module/Debug -j4
+
+  clean-dlm:
+    image: gophermotorsports/build:latest
+    volumes: 
+      - ./:/code/
+    command: make clean -C ./components/data-logging-module/Debug -j4
+ 
   pdm:
     image: gophermotorsports/build:latest
     volumes: 
