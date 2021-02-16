@@ -17,8 +17,5 @@ jobs:
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@master
 
-    - name: Clean
-      run: docker-compose run clean-dlm
-
     - name: Build
       run: docker-compose run dlm
